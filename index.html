@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Web Quizaroo</title>
+</head>
+<body>
+    <div class="outer-container" id="outer-c">
+        <div class="top-menu">
+            <button>Scores</button>
+            <p id="timer">Time: 00:00</p>
+
+        </div>
+
+        <div class="inner-container" id="inner-c">
+            <header class="quiz-start">
+                <h1>Coding Quiz</h1>
+                <p>Press start button to begin!</p>
+                <button id="start-button">Start </button>
+            </header>
+
+        </div>
+        <main>
+            <section class="questions hide">
+                <h2 id="q-title">question here</h2>
+                <ul>
+                    <li><button id="answer1">Answer 1</button></li>
+                    <li><button id="answer2">Answer 2</button></li>
+                    <li><button id="answer3">Answer 3</button></li>
+                    <li><button id="answer4">Answer 4</button></li>
+                </ul>
+
+
+            </section>
+
+            <section class="quiz-complete hide">
+                <h2>Quiz Complete</h2>
+                <p>Your Score: 00</p>
+            
+            <div>
+                <label for="">Please enter initials</label>
+              <input type="text">  
+                <button>Submit</button>
+            </div>
+            </section>
+
+            <section class="high-scores hide">
+                <h2>High Scores</h2>
+                <ol>
+                    <li>RC - 25</li>
+                    <li>RC - 25</li>
+                    <li>RC - 25</li>
+                    <li>RC - 25</li>
+                </ol>
+            </section>
+
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
